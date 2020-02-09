@@ -3,17 +3,17 @@ package frontend
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/harlow/go-micro-services/services/recommendation/proto"
-	"github.com/harlow/go-micro-services/services/reservation/proto"
-	"github.com/harlow/go-micro-services/services/user/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/recommendation/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/reservation/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/user/proto"
 	"net/http"
 	"strconv"
 
-	"github.com/harlow/go-micro-services/dialer"
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/profile/proto"
-	"github.com/harlow/go-micro-services/services/search/proto"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/dialer"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/profile/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/search/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/tracing"
 	"github.com/opentracing/opentracing-go"
 )
 
