@@ -13,8 +13,8 @@ import (
 
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
 	"github.com/hailocab/go-geoindex"
-	"github.com/harlow/go-micro-services/registry"
-	pb "github.com/harlow/go-micro-services/services/geo/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	pb "github.com/Fatahir/ds/tree/master/hotelReservation/services/geo/proto"
 	opentracing "github.com/opentracing/opentracing-go"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
