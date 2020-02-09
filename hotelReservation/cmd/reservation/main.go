@@ -8,9 +8,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/reservation"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/reservation"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/tracing"
 	"strconv"
 
 	"github.com/bradfitz/gomemcache/memcache"
