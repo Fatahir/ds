@@ -9,9 +9,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/frontend"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/frontend"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/tracing"
 )
 
 func main() {
