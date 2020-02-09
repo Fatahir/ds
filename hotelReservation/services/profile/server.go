@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
-	"github.com/harlow/go-micro-services/registry"
-	pb "github.com/harlow/go-micro-services/services/profile/proto"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	pb "github.com/Fatahir/ds/tree/master/hotelReservation/services/profile/proto"
 	"github.com/opentracing/opentracing-go"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
