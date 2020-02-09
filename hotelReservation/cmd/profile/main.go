@@ -9,9 +9,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/harlow/go-micro-services/registry"
-	"github.com/harlow/go-micro-services/services/profile"
-	"github.com/harlow/go-micro-services/tracing"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/registry"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/services/profile"
+	"github.com/Fatahir/ds/tree/master/hotelReservation/tracing"
 
 	"github.com/bradfitz/gomemcache/memcache"
 	"time"
